@@ -1,0 +1,5 @@
+var themeboxAll = document.getElementsByClassName('bg-gray-100 dark:bg-gray-800 p-4 rounded-xl my-2');
+var themebox = themeboxAll[0];
+var html = '<h2 class="font-bold text-2xl mb-2">Theming and Personalization</h2> <span class="mx-2">Mode:</span><select class="dark:bg-gray-700 p-2 rounded"><option value="" selected="selected">Preset</option> <option value="" disabled="">Custom</option> </select><br><br><h2 class="font-bold text-2xl mb-2">Preset options</h2><span class="mx-2">Preset:</span>  <select class="dark:bg-gray-700 p-2 rounded"><option value="" selected="selected">WIP :/</option> <option value="" disabled="">Default dark</option><option value="" disabled="">Default light</option> <option value="" disabled="">System pick</option><option value="" disabled="">Cool orange</option></select><br><br><h2 class="font-bold text-2xl mb-2">Custom settings:</h2><p class="text-1xl mb-2">Sorry, this feature doesn\'t exist yet.</p><br><br><p class="text-0.5xl mb-2">Wasteof.money v2 | Wasteof.money2+</p>';
+console.log(themebox);
+themebox.innerHTML = html;
