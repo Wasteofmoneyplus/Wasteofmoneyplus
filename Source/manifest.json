@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+ 
+  "name": "Wasteof.money2+",
+  "version": "2.0.0",
+  "description": "Adds features to https://wasteof.money (only v2)",
+  "icons": { 
+           "16": "16.png",
+           "48": "48.png",
+          "128": "128.png" },
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://wasteof.money/*"]
+  }]
+
+  
+}
